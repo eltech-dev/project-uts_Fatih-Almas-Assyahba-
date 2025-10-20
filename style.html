@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+
+  <!-- ==== STYLES ==== -->
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+
+  <!-- ==== FONTS & ICONS ==== -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+  <!-- ===== NAVBAR ===== -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">MyProfile</div>
+      <ul class="nav-links">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ===== HOME ===== -->
+  <section id="home" class="section active">
+    <div class="home-container">
+      <div class="profile-pic">
+        <img src="foto fatih.jpg" alt="Profile">
+      </div>
+      <div class="intro">
+        <h1>Hey, I'm <span>Fatih Almas Assyahba'</span></h1>
+        <h2>I'm a <span class="highlight">UNESA Student</span></h2>
+        <p>Saya Seorang Mahasiswa aktif Teknik Informatika, saya lebih tertarik di bidang Web Devoloper</p>
+
+        <div class="social-icons">
+          <a href="https://github.com/eltech-dev" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://instagram.com/e.ellmz_" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://facebook.com/Assyahba" target="_blank"><i class="fab fa-facebook"></i></a>
+          <a href="https://wa.me/087834288922" target="_blank"><i class="fab fa-whatsapp"></i></a>
+          <a href="mailto:aassyahba@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+        </div>
+
+        <a href="cv fatih.png" target="_blank" class="cv-btn">Lihat CV</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about" class="section">
+    <h2>About Me</h2>   
+    <p>
+      Saya Fatih Almas Assyahba', biasa di panggil Fatih atau Almas, saya Mahasiswa aktif Program Study Teknik 
+      Informatika Universtas Negeri Surabaya, saya lebih tertarik di bidang Web Devoloper, dan juga Pengembangan Perangkat Lunak, 
+      Saya adalah seseorang yang suka belajar hal baru dan mengembangkan diri di bidang teknologi dan desain.
+    </p>
+  </section>
+
+  <!-- ===== PORTFOLIO ===== -->
+  <section id="portfolio" class="section">
+    <h2>My Portfolio</h2>
+
+    <div class="portfolio-gallery">
+      <div class="photo"><img src="foto prawira.jpeg" alt="Project 1"></div>
+      <div class="photo"><img src="sertif justs mtq unesa.jpeg" alt="Project 2"></div>
+      <div class="photo">
+        <iframe width="300" height="200" 
+                src="https://www.youtube.com/embed/h9kYC5_ImeY" 
+                title="YouTube video"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact" class="section">
+
+    <h2>Contact Me</h2>
+
+    <div class="contact-container">
+      <form id="contactForm" class="contact-form">
+        <div class="form-group">
+          <input type="text" placeholder="Your Name" required>
+          <input type="email" placeholder="Your Email" required>
+        </div>
+        <textarea rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+
+      <!-- Social icons -->
+      <div class="social-icons">
+        <a href="https://github.com/eltech-dev" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://instagram.com/e.ellmz_" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://facebook.com/Assyahba" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://wa.me/087834288922" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        <a href="mailto:aassyahba@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+
+    <!-- Popup (disisakan satu saja) -->
+    <div id="popup" class="popup">Pesan terkirim, mohon tunggu balasannya...</div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <p>© 2025 Fatih Almas Assyahba’. All rights reserved.</p>
+  </footer>
+</body>
+</html>
